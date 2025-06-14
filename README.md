@@ -16,6 +16,17 @@ A curated list of papers and open-source projects applying **Artificial Intellig
 
 ## Structure Prediction
 
+### 2025–2024
+- **[AlphaFold 3 (2024)](https://www.nature.com/articles/s41586-024-07487-w)**  
+  Introduces a diffusion-based architecture for predicting complex structures (proteins, nucleic acids, ligands) with substantially improved accuracy over prior docking and multimer methods.
+
+- **[HelixFold3 (2024)](https://arxiv.org/abs/2408.16975)** – **[Code](https://github.com/PaddlePaddle/PaddleHelix)**  
+  Open-source reproduction of AlphaFold 3, enabling broad access to high-accuracy structure prediction of complex biomolecular assemblies.
+
+### 2023
+- **[ESMFold](https://www.science.org/doi/10.1126/science.ade2574)** – **[Code](https://github.com/facebookresearch/esm)**  
+  Predicts 3D structures directly from single sequences using a 15B parameter language model, nearly matching AlphaFold2 accuracy.
+
 ### 2023
 - **[ESMFold: Evolutionary-scale prediction of atomic-level protein structure](https://www.science.org/doi/10.1126/science.ade2574)** – [[Code](https://github.com/facebookresearch/esm)]  
   Predicts 3D structures directly from single sequences using a 15B parameter language model, nearly matching AlphaFold2 accuracy.
@@ -42,6 +53,17 @@ A curated list of papers and open-source projects applying **Artificial Intellig
 
 ## Protein Design
 
+### 2025–2024
+- **[DRAKES (2025)](https://arxiv.org/abs/2410.13643)** – **[Code](https://github.com/ChenyuWang-Monica/DRAKES)**  
+  Discrete reward-optimized protein sequence generation via Gumbel-Softmax-based fine-tuning of diffusion models, improving stability while retaining naturalness.
+
+- **[Scalable Protein Design via Relaxed Sequence Optimization (2024)](https://doi.org/10.1126/science.adq1741)** – **[Code](https://colab.research.google.com/github/sokrypton/ColabDesign/blob/main/af/examples/RSO.ipynb)**  
+  Gradient-based differentiable optimization in a relaxed continuous sequence space, enabling design of large, stable protein domains.
+
+- **[PLAID (2024)](https://www.biorxiv.org/content/10.1101/2024.12.02.626353v1)** – **[Code](https://github.com/amyxlu/plaid)**  
+  Multimodal diffusion model generating all-atom protein structure and sequence from compressed latent folding space trained on sequence-only data.
+
+
 ### 2023
 - **[RFdiffusion: De novo design with diffusion models](https://www.nature.com/articles/s41586-023-05937-2)** – [[Code](https://github.com/RosettaCommons/RFdiffusion)]  
   A generative diffusion model for protein backbones and complexes, enabling novel fold and motif creation.
@@ -64,6 +86,11 @@ A curated list of papers and open-source projects applying **Artificial Intellig
 
 ## Sequence Generation
 
+### 2024
+- **[ProCALM (2024)](https://arxiv.org/abs/2410.03634)** – **[Code](https://github.com/jsunn-y/ProCALM)**  
+  Lightweight adapters for conditionally generating proteins by family and taxonomy using fine-tuned language models.
+
+
 ### 2023
 - **[ProGen2: Language models for protein design](https://www.nature.com/articles/s41587-022-01618-2)**  
   Transformer LMs that generate novel enzymes and control properties via conditioning.
@@ -84,6 +111,17 @@ A curated list of papers and open-source projects applying **Artificial Intellig
 
 ## Protein-Protein Interaction Prediction
 
+### 2024
+- **[ColabDock (2024)](https://www.nature.com/articles/s42256-024-00873-z)** – **[Code](https://github.com/JeffSHF/ColabDock)**  
+  Enhances AlphaFold2 with experimental restraints and a ranking framework to improve docking of protein–protein and antibody–antigen complexes.
+
+- **[SurfDock (2024)](https://www.nature.com/articles/s41592-024-02516-y)** – **[Code](https://github.com/CAODH/SurfDock)**  
+  Diffusion model that samples ligand poses on protein surfaces with SE(3)-equivariance and higher physical fidelity.
+
+- **[HelixDock (2024)](https://arxiv.org/abs/2310.13913)** – **[Code](https://github.com/PaddlePaddle/PaddleHelix)**  
+  Trained on massive docked datasets, it achieves robust pose prediction across unseen protein–ligand pairs.
+
+
 ### 2021
 - **[AlphaFold-Multimer: Predicting complex assemblies](https://www.biorxiv.org/content/10.1101/2021.10.04.463034v1)** – [[Code](https://github.com/deepmind/alphafold)]  
   Extension of AlphaFold2 to multimeric complexes with high interface accuracy.
@@ -103,6 +141,13 @@ A curated list of papers and open-source projects applying **Artificial Intellig
 ---
 
 ## Folding Simulation and Dynamics
+
+### 2024
+- **[AI²BMD (2024)](https://www.nature.com/articles/s41586-024-08127-z)** – **[Code](https://github.com/microsoft/AI2BMD)**  
+  Fragment-based ab initio MD framework achieving DFT-level accuracy for large biomolecules with learned force fields.
+
+- **[AlphaFolding (2024)](https://arxiv.org/abs/2408.12419)**  
+  First 4D diffusion model generating conformational trajectories over time for proteins using motion-aligned temporal sampling.
 
 ### 2023
 - **[TorchMD-Net: Neural potentials for protein thermodynamics](https://www.nature.com/articles/s41467-023-41343-1)** – [[Code](https://github.com/torchmd/torchmd-net)]  
