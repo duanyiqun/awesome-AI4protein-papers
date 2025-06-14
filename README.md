@@ -1,16 +1,22 @@
-# Awesome AI for Proteins
+# Awesome Generative Models for Proteins
 
-A curated list of papers and open-source projects applying **Artificial Intelligence to Protein Science**, including structure prediction, design, sequence generation, interaction prediction, and dynamic simulations. Contributions welcome!
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC--BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/your-org/awesome-ai4proteins/pulls)
+[![Last Update](https://img.shields.io/badge/last%20update-June%202025-blue)](https://github.com/your-org/awesome-ai4proteins)
+
+> A curated list of recent and influential papers, preprints, and codebases at the intersection of **AI and Protein Science**.
+
+Artificial Intelligence is revolutionizing structural biology, protein design, and dynamics. This repository tracks the evolution of this field, organizing work into major tasks with summaries and code links where available.
 
 ---
 
-## Table of Contents
+## 📌 Table of Contents
 
-- [Structure Prediction](#structure-prediction)
-- [Protein Design](#protein-design)
-- [Sequence Generation](#sequence-generation)
-- [Protein-Protein Interaction Prediction](#protein-protein-interaction-prediction)
-- [Folding Simulation and Dynamics](#folding-simulation-and-dynamics)
+- [🧬 Structure Prediction](#structure-prediction)
+- [🧪 Protein Design](#protein-design)
+- [🧾 Sequence Generation](#sequence-generation)
+- [🔗 Protein-Protein Interaction Prediction](#protein-protein-interaction-prediction)
+- [🎞️ Folding Simulation and Dynamics](#folding-simulation-and-dynamics)
 
 ---
 
