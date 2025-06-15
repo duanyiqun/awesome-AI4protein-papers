@@ -11,7 +11,7 @@ Artificial Intelligence is revolutionizing structural biology, protein design, a
 ---
 
 ## 📌 Table of Contents
-
+- [📊 Benchmarks & Leaderboards](#benchmarks--leaderboards)
 - [🧬 Structure Prediction](#structure-prediction)
 - [🧪 Protein Design](#protein-design)
 - [🧾 Sequence Generation](#sequence-generation)
@@ -19,6 +19,31 @@ Artificial Intelligence is revolutionizing structural biology, protein design, a
 - [🎞️ Folding Simulation and Dynamics](#folding-simulation-and-dynamics)
 
 ---
+
+
+## 📊 Benchmarks & Leaderboards
+
+- **[ProteinBench (2024)](https://arxiv.org/abs/2409.06744)**  
+  Holistic benchmark suite evaluating foundation models across structure prediction, design, and folding simulations with multi-metric scoring. Includes code and leaderboard.
+
+- **[PDB‑Struct (2023)](https://arxiv.org/abs/2312.00080)**  
+  Structure-based protein design benchmark evaluating refoldability and designability. Includes comparisons for ProteinMPNN, ESM‑IF, ByProt, etc.
+
+- **[PSBench (2025)](https://arxiv.org/abs/2505.22674)**  
+  Large-scale benchmark to assess protein complex model quality (EMA) on CASP-style datasets. Provides reference implementations and leaderboards.
+
+- **[MotifBench (2025)](https://arxiv.org/abs/2502.12479)**  
+  Benchmarks challenging motif scaffold tasks using 30+ design targets, with leaderboard submission platform.
+
+- **Structure Predictor Evaluations**  
+  Public articles and studies comparing AlphaFold2, ESMFold, OmegaFold on TM-score, PLDDT, inference time, and memory usage.
+
+- **TRILL Crystallization Benchmarks**  
+  Tasks designed to test protein language model capabilities for predicting crystallization success and solubility.
+
+- **SAMPL (Ongoing)**  
+  Community-wide blind challenges on protein–ligand affinity, hydration energies, and conformational changes.
+
 
 ## Structure Prediction
 
