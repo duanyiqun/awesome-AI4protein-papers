@@ -169,6 +169,16 @@ Artificial Intelligence is revolutionizing structural biology, protein design, a
 
 ---
 
+## Open Source Tools or Projects
+
+### 2025
+
+**[AbEpiTope](https://github.com/mnielLab/AbEpiTope-1.0)**
+AbEpiTope-1.0 is a computational tool that features two scores: AbEpiScore-1.0, predicting the accuracy of modelled AbAg interfaces, and AbEpiTarget-1.0, for selecting the antibody most likely targeting a given antigen.
+
+
+
+
 ## License
 
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) – Feel free to copy, share, and contribute with attribution.
